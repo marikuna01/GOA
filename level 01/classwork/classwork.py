@@ -28,3 +28,4 @@ print(type(name))
 print(type(surname))
 print(type(height))
 print(type(knows_programming))
+#ჯდჯფჯფდ

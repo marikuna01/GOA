@@ -1,10 +1,10 @@
-name = "Mariam"
+name = "Mariam" #string
 
 
-surname= "Katashvili"
+surname= "Katashvili" #string
 
-age = 12
-height = 150
+age = 12 #int
+height = 1.50 #float
 
 
 print(type(age))

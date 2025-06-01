@@ -1,0 +1,25 @@
+print(True and False or False and False or True or True or False)
+# and
+# True and False  → False
+# False and False → False
+
+
+# or
+# False or False  → False
+# False or True   → True
+# True or True    → True
+# True or False   → True
+
+
+# გამოტანს: True
+#  and ოპერაციები სრულდება პირველ რიგში, რაც იძლევა შედეგს False or False or True or True or False, რაც საბოლოოდ გამოაქვს როგორც True.
+
+# True = 1, False = 0
+
+# and გავს * (ნამრავლს)
+print(True and True)    # True  → 1 * 1 = 1
+print(True and False)   # False → 1 * 0 = 0
+print(False and True)   # False → 0 * 1 = 0
+print(False and False)  # False → 0 * 0 = 0
+
+# ასე რომ, and ≈ *
